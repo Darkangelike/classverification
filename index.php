@@ -34,8 +34,8 @@
     <?php if ($user_audio) {
     echo ' <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
     <audio autoplay controls>
-  <source src="23ttsMP3.com_VoiceText_2021-12-16_15 38 16.mp3" type="audio/mpeg">
-  <source src="23ttsMP3.com_VoiceText_2021-12-16_15 38 16.mp3" type="audio/wav">
+  <source src="medias/synthesize.mp3" type="audio/mpeg">
+  <source src="medias/synthesize.mp3" type="audio/wav">
 </audio>';
 } ?>
     <img style="max-width : 100%" src="<?= $user_picture ?>">
